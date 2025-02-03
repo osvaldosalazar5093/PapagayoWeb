@@ -1,0 +1,26 @@
+[
+
+    {
+      "id": "property2",
+      "imageSrc": "images/home-puma/img-casa-puma-02.jpeg",
+      "address": "Costa Rica, Papagayo",
+      "name": "Casa Puma",
+      "beds": "5",
+      "baths": "6",
+      "saleType": "Luxury Property For Sale",
+      "detailsPage": "property-single.html",
+      "area":"9,737"
+    },
+    {
+      "id": "property1",
+      "imageSrc": "images/home-papagayo-paradise/img-casa-papagayoparadise-04.jpeg",
+      "address": "Costa Rica, Papagayo",
+      "name": "Península Papagayo Paradise",
+      "beds": "7",
+      "baths": "3",
+      "saleType": "Luxury Home For Rental",
+      "detailsPage": "property-single.html",
+      "area":"7,737"
+    }
+  ]
+  

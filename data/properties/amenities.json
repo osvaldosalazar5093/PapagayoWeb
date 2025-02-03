@@ -1,0 +1,158 @@
+{  "property1":{
+      "Bedrooms": {
+        "serv1": "King Master",
+        "serv2": "7 suites",
+        "serv3": "7 Bathroom",
+        "serv4": "1 Kids Room (5 Queen bed)",
+        "serv5": "20 guests"
+      },
+      "Safety features": {
+        "serv1": "Safe boxes",
+        "serv2": "Exterior lighting",
+        "serv3": "Fire extinguisher"
+      },
+      "Location Type": {
+        "serv1": "Golf Course View",
+        "serv2": "Ocean View"
+      },
+      "Dining": {
+        "serv1": "Breakfast bar or island with seating",
+        "serv2": "Dining Area four 12",
+        "serv3": "Dining table and chairs (appropriate for the size of the household)"
+      },
+      "Onsite Services": {
+        "serv1": "Car Available",
+        "serv2": "Massage",
+        "serv3": "Private Chef",
+        "serv4": "Concierge"
+      },
+      "Private Prieta Beach Club": {
+        "serv1": "Restaurants",
+        "serv2": "Spa",
+        "serv3": "Children's area",
+        "serv4": "Beach area"
+      },
+      "General": {
+        "serv1": "Telephone",
+        "serv2": "Linens Provided",
+        "serv4": "Garage",
+        "serv5": "Internet",
+        "serv7": "Safe",
+        "serv9": "Wireless Internet",
+        "serv10": "Iron & Board",
+        "serv11": "Hair Dryer",
+        "serv13": "Shampoo",
+        "serv14": "Basic Soaps",
+        "serv16": "Living Room",
+        "serv17": "Gym"
+      },
+      "Outside": {
+        "serv1": "Lawn / Garden",
+        "serv2": "Balcony",
+        "serv3": "Kayak / Canoe",
+        "serv4": "Bicycles",
+        "serv5": "Beach Chairs",
+        "serv6": "Beach Towels",
+        "serv7": "Porch / Veranda",
+        "serv8": "Deck / Patio",
+        "serv9": "Outdoor Furniture",
+        "serv10": "Water Sports Gear",
+        "serv11": "Rent a Car",
+        "serv12": "Wather Tours",
+        "serv13": "Land Tours"
+
+      },
+      "Featured": {
+        "serv1": "Swimming pool",
+        "serv2": "Internet",
+        "serv3": "Air Conditioning",
+        "serv4": "TV",
+        "serv5": "Washer & Dryer",
+        "serv6": "Children Welcome"
+      },
+      "Kitchen": {
+        "serv1": "Dishwasher",
+        "serv2": "Refrigerator",
+        "serv3": "Stove",
+        "serv4": "Oven",
+        "serv5": "Microwave",
+        "serv6": "Grill",
+        "serv7": "Coffee Maker",
+        "serv8": "Blender",
+        "serv9": "Pantry Items",
+        "serv10": "Dishes & Utensils"
+      },
+   
+      "Entertainment": {
+        "serv1": "Television",
+        "serv2": "Sonos",
+        "serv4": "Books",
+        "serv5": "Games for Kids"
+      },
+      "Pool / Spa": {
+        "serv1": "Outdoor Pool",
+        "serv2": "Massage",
+        "serv3": "Personal Trainer",
+        "serv4": "Facial cleansings",
+        "serv5": "Hair treatments"
+      }
+  },
+  "property2": {
+    "Nature and Recreation": {
+      "serv1": "Exotic Bird Watching",
+      "serv2": "Playful Monkey Sightseeing",
+      "serv3": "Exotic Flower Fragrances",
+      "serv4": "Spectacular Ocean and Jungle Views",
+      "serv5": "Outdoor Showers",
+      "serv6": "Private Beach Club Access",
+      "serv7": "Private Grocery Delivery",
+      "serv8": "Jungle or Beach Excursions"
+    },
+    "Sports Facilities": {
+      "serv1": "Arnold Palmer Signature Golf Course",
+      "serv2": "Nemare Steakhouse (Four Seasons owned)",
+      "serv3": "Peter Burwash International Tennis Facility",
+      "serv4": "Shops",
+      "serv5": "Private Pool"
+    },
+    "Adventures": {
+      "serv1": "Ziplining",
+      "serv2": "Scuba Diving and Snorkeling",
+      "serv3": "Jet Skis",
+      "serv4": "Surf",
+      "serv5": "World-Class Deep Sea Fishing"
+    },    
+    "Beds and Bedrooms": {
+      "serv1": "8 total beds",
+      "serv2": "1 master suite",
+      "serv3": "2 guest bedrooms"
+    },
+    "Bathrooms": {
+      "serv1": "6 full bathrooms",
+      "serv2": "1 half bathroom"
+    },
+    "Location Type": {
+      "serv1": "Golf Course View",
+      "serv2": "Ocean View"
+    },
+
+    "Dining": {
+      "serv1": "Breakfast bar or island with seating",
+      "serv2": "Dining Area four 12",
+      "serv3": "Dining table and chairs (appropriate for the size of the household)"
+    },
+    "Onsite Services": {
+      "serv1": "Car Available",
+      "serv2": "Massage",
+      "serv3": "Private Chef",
+      "serv4": "Concierge"
+    },
+    "Private Prieta Beach Club": {
+      "serv1": "Restaurants",
+      "serv2": "Spa",
+      "serv3": "Children's area",
+      "serv4": "Beach area"
+    }
+}
+}
+  

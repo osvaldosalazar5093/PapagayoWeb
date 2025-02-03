@@ -1,0 +1,796 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="visionarIAcompany" />
+    <link rel="shortcut icon" href="images/logo.ico" />
+
+    <meta name="description" content="Discover the exceptional services we offer in Papagayo, 
+    Costa Rica. From thrilling excursions to top-notch concierge services,
+    we're here to make your Costa Rican experience unforgettable. Contact us today to start your adventure in paradise!">
+
+    <meta name="keywords" content="Papagayo services, Papagayo Costa Rica, excursions, tours, 
+    adventure, beach, luxury, accommodations, concierge, hospitality, tropical, vacation, travel, explore, 
+    wildlife, eco-tourism, activities, relaxation, dining, local culture, Papagayo Peninsula, properties, luxury property">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    
+     <!-- ////////////// iconos ////////////// -->
+
+    <link rel="stylesheet" href="css/tiny-slider.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <title>
+      Papagayo Services Costa Rica
+    </title>
+  </head>
+  <body>
+
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+          <span class="icofont-close js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="site-nav">
+        <div class="menu-bg-wrap">
+          <div class="site-navigation site-nav-scrolled">
+            <div class="container">
+            <a href="index.html" class="logo m-0 float-start"><img src="./images/logo-papagayo-white.png" alt=""></a>
+            <ul
+              class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end"
+            >
+              <li class="active"><a href="index.html">Home</a></li>
+                  <!-- <li class="has-children">
+               <a href="properties.html">Properties</a>
+               <ul class="dropdown">
+                 <li><a href="#">Buy Property</a></li>
+                 <li><a href="#">Sell Property</a></li>
+               </ul>
+             </li> -->
+             <li class="has-children">
+              <a href="./services.html">Services</a>
+              <span class="arrow-collapse collapsed"></span> 
+              <ul class="dropdown">
+                <li><a  onclick="setService('HomeManagement')">Home management</a></li>
+                <li><a  onclick="setService('PersonalConcierge')">Personal Concierge</a></li>
+                <li><a  onclick="setService('ExclusiveRentals')">Exclusive rentals</a></li>
+                <li><a  onclick="setService('WaterTours')">Water Tours</a></li>
+                <li><a  onclick="setService('LandTours')">Land Tours</a></li>
+                <li><a  onclick="setService('PropertyManagement')">Property management</a></li>
+                <li><a  onclick="setService('RentACar')">Rent a car</a></li>
+                <li><a  onclick="setService('Spa')">Spa</a></li>
+                <li><a  onclick="setService('chef')">Chef</a></li>
+              </ul>
+          </li>
+          
+              <li><a href="about.html">About</a></li>
+              <li><a class="bg-btn-contact-nav" href="contact.html" >Contact Us</a></li>
+            </ul>
+
+            <a
+              href="#"
+              class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+              data-toggle="collapse"
+              data-target="#main-navbar"
+            >
+              <span></span>
+            </a>
+          </div>
+          </div>
+        </div>
+    </nav>
+
+
+    <div class="home-slider">
+      <div class="row justify-content-center align-items-center">
+          <div class="col-lg-12 text-center">
+              <!-- Contenido sobre el slider -->
+              <div class="overlay-content">
+                <div>
+                  <h1 class="heading text-uppercase text-shadow text-white text-warning" data-aos="fade-up" style="font-family: 'Poppins', sans-serif;">
+                    Let us do the work
+                  </h1>
+                </div>
+                
+              
+                  <p>
+                      <a href="./services.html" class="btn btn-primary text-uppercase text-white py-3 px-4">
+                          Our Services/Experiences
+                      </a>
+                  </p>
+              </div>
+              
+              <!-- Slider de Imágenes como Fondo -->
+              <div class="slider-images">
+                  <video id="homeVideo" src="images/Home/homeVideo.mp4" autoplay muted loop ></video>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    
+  <Section class="Properties">
+    <div class="py-3">
+      <div class="container" data-aos="fade-up">
+        
+        <div class="container-slider mb-2 row d-flex align-items-center justify-content-center">
+          <div class="col-lg-6 justify-content-center slider-text-center">
+              <h2 class="font-weight-bold text-primary heading">
+                  Exclusive Properties
+              </h2>
+          </div>
+          <div class="col-lg-6 d-flex justify-content-lg-center btn-slider-property-single">
+              <div class="container-next-prev">
+                  <span class="prev btn-slider" data-controls="prev">&#10094; Prev</span>
+                  <span class="next btn-slider" data-controls="next">Next &#10095;</span>
+              </div>
+          </div>
+
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 justify-content-center">
+          <div class="property-slider-wrap justify-content-center">
+            <div id="properties-container" class="property-slider" data-aos="fade-up">
+              
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+  </Section>
+
+  <a href="#" class="scrollToTop">&#8679;</a>
+
+    <section class="features-1" style="padding-bottom: 50px;" >
+      <div class="container">
+          <div class="text-start title-services-home">
+              <h2 class="font-weight-bold text-primary heading">
+                  Exclusive Services
+              </h2>
+          </div>
+          <div class="row services-home">
+              <div class="col-6 col-lg-3" data-aos="fade-up">
+                  <div class="box-feature-home">
+                      <div class="mb-3 feature-container">
+                          <img src="images/services/Spa.jpg" alt="" class="feature-img">
+                      </div>
+                      <p><a  onclick="setService('Spa')" class="learn-more"><h3>Spa</h3></a></p>
+                  </div>
+              </div>
+              <div class="col-6 col-lg-3" data-aos="fade-up">
+                  <div class="box-feature-home">
+                      <div class="mb-3 feature-container">
+                          <img src="images/services/Chef.jpg" alt="" class="feature-img">
+                      </div>
+                      <p><a  onclick="setService('Spa')" class="learn-more"><h3>Private Chef</h3></a></p>
+                  </div>
+              </div>
+              <div class="col-6 col-lg-3" data-aos="fade-up">
+                  <div class="box-feature-home">
+                      <div class="mb-3 feature-container">
+                          <img src="images/services/Land-Tours1.jpg" alt="" class="feature-img">
+                      </div>
+                      <p><a  onclick="setService('LandTours')" class="learn-more"><h3>Land Tours</h3></a></p>
+                  </div>
+              </div>
+              <div class="col-6 col-lg-3" data-aos="fade-up">
+                  <div class="box-feature-home">
+                      <div class="mb-3 feature-container">
+                          <img src="images/services/Rent-A-Car1.jpg" alt="" class="feature-img">
+                      </div>
+                      <p><a  onclick="setService('RentACar')" class="learn-more"><h3>Rent A Car</h3></a></p>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-6 col-lg-3" data-aos="fade-up">
+                  <div class="box-feature-home">
+                      <div class="mb-3 feature-container">
+                          <img src="images/services/Personal-Concierge1.jpg" alt="" class="feature-img">
+                      </div>
+                      <p><a  onclick="setService('PersonalConcierge')" class="learn-more"><h3>Personal Concierge</h3></a></p>
+                  </div>
+              </div>
+              <div class="col-6 col-lg-3" data-aos="fade-up">
+                  <div class="box-feature-home">
+                      <div class="mb-3 feature-container">
+                          <img src="images/services/Property-Management1.jpg" alt="" class="feature-img">
+                      </div>
+                      <p><a  onclick="setService('PropertyManagement')" class="learn-more"><h3>Property Management</h3></a></p>
+                  </div>
+              </div>
+              <div class="col-6 col-lg-3" data-aos="fade-up">
+                  <div class="box-feature-home">
+                      <div class="mb-3 feature-container">
+                          <img src="images/services/HomeManagement.jpg" alt="" class="feature-img">
+                      </div>
+                      <p><a  onclick="setService('HomeManagement')" class="learn-more"><h3>Home management</h3></a></p>
+                  </div>
+              </div>
+              <div class="col-6 col-lg-3" data-aos="fade-up">
+                  <div class="box-feature-home">
+                      <div class="mb-3 feature-container">
+                          <img src="images/home-papagayo-paradise/img-casa-papagayoparadise-10.jpeg" alt="" class="feature-img">
+                      </div>
+                      <p><a  onclick="setService('HomeManagement')" class="learn-more"><h3>Exclusive Rentals</h3></a></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+
+
+    <div class="section">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-12">
+            <h2 class="font-weight-bold heading text-primary mb-4">
+              Costa Rica is a natural paradise for you!
+            </h2>
+            <p class="text-black-50">
+              The Gulf of Papagayo in Costa Rica is a natural paradise with rich biodiversity. You will find marine and 
+              terrestrial species that will enchant you, a unique experience that you cannot miss!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="container-especies row">
+          <div class="col-md-4 mb-2 especie-01" data-aos="fade-up" data-aos-delay="0">
+            <img src="images/1.png" alt="Image" class="img-fluid" />
+          </div>
+          <div class="col-md-4 mt-lg-5 mb-2 especie-02" data-aos="fade-up" data-aos-delay="100">
+            <img src="images/Rana500x500.jpeg" alt="Image" class="img-fluid" />
+          </div>
+          <div class="col-md-4 especie-03" data-aos="fade-up" data-aos-delay="200">
+            <img src="images/2.png" alt="Image" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="section section-4 bg-light">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-12">
+            <h2 class="font-weight-bold heading text-primary mb-4">
+              Casa Puma, the perfect home for you!
+            </h2>
+            <p class="text-black-50">
+              Experience the magic of Casa Puma, a hidden gem in Costa Rica seamlessly blending modern elegance with natural beauty. With breathtaking views of the Pacific Ocean and lush jungle, 
+              his home offers a serene and luxurious retreat, promising an unparalleled living experience.
+            </p>
+          </div>
+        </div>
+
+        <!-- style="width: 20px; margin-left: 28px; margin-top: 25px;" -->
+
+        <div class="row justify-content-between mb-5">
+          <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2 position-relative">
+            <div class="img-about dots">
+              <img src="images/home-puma/img-casa-puma-view-gathering-03.jpeg" alt="Image" class="img-fluid" />
+              <div class="sale-tag">Luxury Property For Sale</div>
+            </div>
+          </div>         
+          <div class="col-lg-4">
+            <div class="d-flex feature-h">
+              <span class="wrap-icon me-3" >
+                <svg xmlns="http://www.w3.org/2000/svg" style="width: 18px; margin-left: 28px; margin-top: 25px;" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+            </span>
+              <div class="feature-text">
+                <h3 class="heading">Prime Location</h3>
+                <p class="text-black-50" style="text-align: justify;">
+                  Casa Puma is situated in a prime location with stunning views of the Pacific Ocean and the lush tropical 
+                  jungle of Costa Rica, offering an unparalleled natural setting.
+                </p>
+              </div>
+            </div>
+
+            <div class="d-flex feature-h">
+              <span class="wrap-icon me-3">
+                <svg xmlns="http://www.w3.org/2000/svg" style="width: 20px; margin-left: 28px; margin-top: 25px;" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
+            </span>
+            
+
+              <div class="feature-text">
+                <h3 class="heading">Meticulous Design</h3>
+                <p class="text-black-50" style="text-align: justify;">
+                  This home has been meticulously designed with attention to every detail, 
+                  from its contemporary architecture to its high-quality finishes, ensuring an elegant and sophisticated space.
+                </p>
+              </div>
+            </div>
+
+            <div class="d-flex feature-h">
+              <span class="wrap-icon me-3">
+                <svg xmlns="http://www.w3.org/2000/svg" style="width: 20px; margin-left: 28px; margin-top: 25px;" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M284.3 11.7c-15.6-15.6-40.9-15.6-56.6 0l-216 216c-15.6 15.6-15.6 40.9 0 56.6l216 216c15.6 15.6 40.9 15.6 56.6 0l216-216c15.6-15.6 15.6-40.9 0-56.6l-216-216z"/></svg>
+            </span>
+              <div class="feature-text">
+                <h3 class="heading">Luxury Amenities</h3>
+                <p class="text-black-50" style="text-align: justify;">
+                  Casa Puma boasts a wide range of luxury amenities, including an infinity pool, 
+                  outdoor entertainment areas, and a gourmet kitchen, providing an exclusive and comfortable lifestyle.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row section-counter mt-5">
+          <!-- <div
+            class="col-6 col-sm-6 col-md-6 col-lg-3"
+            data-aos="fade-up"
+            
+          >
+            <div class="counter-wrap mb-5 mb-lg-0">
+              <span class="number"
+                ><span class="countup text-primary">7500000</span></span
+              >
+              <span class="caption text-black-50">Price of Casa Puma in USD</span>
+            </div>
+          </div> -->
+          <div
+            class="col-4 col-sm-4 col-md-4 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div class="counter-wrap mb-5 mb-lg-0">
+              <span class="number"
+                ><span class="countup text-primary">9737</span></span
+              >
+              <span class="caption text-black-50">Area of ft2</span>
+            </div>
+          </div>
+          <div
+            class="col-4 col-sm-4 col-md-4 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            <div class="counter-wrap mb-5 mb-lg-0">
+              <span class="number"
+                ><span class="countup text-primary">5779</span></span
+              >
+              <span class="caption text-black-50">ft2 INTERIOR AIR CONDITIONED AREAS</span>
+            </div>
+          </div>
+          <div
+            class="col-4 col-sm-4 col-md-4 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
+            <div class="counter-wrap mb-5 mb-lg-4">
+              <span class="number"
+                ><span class="countup text-primary">1457</span></span
+              >
+              <span class="caption text-black-50">ft2 EXTERIOR AREAS (Pool & non covered terraces)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+      <section id="subscribe">
+        <div class="container wow fadeInUp">
+          <div class="row">
+            <div class="col-md-8">
+              <h3 class="subscribe-title">Do you want to know more about our homes for sale?</h3>
+              <p class="subscribe-text">Our team will help you find your dream home in Papagayo and other locations.</p>
+            </div>
+            <div class="col-md-4 subscribe-btn-container">
+              <a class="subscribe-btn" href="contact.html">Contact Our Specialists</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- <div class="section">
+      <div class="row justify-content-center footer-cta" data-aos="fade-up">
+        <div class="col-lg-7 mx-auto text-center">
+          <h2 class="mb-4">Contact Our Specialists</h2>
+          <p>
+            <a
+            href="https://wa.me/50688244398?text=Hello,%20I%20want%20to%20know%20more%20about%20your%20service.%20Can%20you%20help%20me?"
+              target="_blank"
+              class="btn btn-primary text-white py-3 px-4"
+              >Contact rigth now</a
+            >
+          </p>
+        </div>
+         /.col-lg-7 -->
+      <!-- </div> -->
+      <!-- /.row -->
+    <!-- </div> -->
+
+    <!-- <div class="section sec-testimonials">
+      <div class="container">
+        <div class="row mb-5 align-items-center">
+          <div class="slider-text-center col-md-6">
+            <h2 class="font-weight-bold heading text-primary mb-4 mb-md-0">
+              Customer Experiences
+            </h2>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <div id="testimonial-nav">
+              <span class="prev" data-controls="prev">&#10094; Prev</span>
+
+              <span class="next" data-controls="next">Next &#10095;</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4"></div>
+        </div>
+        <div class="testimonial-slider-wrap">
+          <div class="testimonial-slider">
+            <div class="item">
+              <div class="testimonial">
+                <div class="img-testimonial">
+                  <img
+                  src="images/person_1-min.jpg"
+                  alt="Image"
+                  class="img-fluid rounded-circle w-50 mb-4"
+                />
+                </div>
+
+                <div class="rate">
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                </div>
+                <h3 class="h5 text-primary mb-4">James Smith</h3>
+                <blockquote>
+                  <p>
+                    &ldquo;Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right at the
+                    coast of the Semantics, a large language ocean.&rdquo;
+                  </p>
+                </blockquote>
+                <p class="text-black-50">Designer, Co-founder</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="testimonial">
+                <div class="img-testimonial">
+                  <img
+                  src="images/person_2-min.jpg"
+                  alt="Image"
+                  class="img-fluid rounded-circle w-50 mb-4"
+                />
+                </div>
+
+                <div class="rate">
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                </div>
+                <h3 class="h5 text-primary mb-4">Mike Houston</h3>
+                <blockquote>
+                  <p>
+                    &ldquo;Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right at the
+                    coast of the Semantics, a large language ocean.&rdquo;
+                  </p>
+                </blockquote>
+                <p class="text-black-50">Designer, Co-founder</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="testimonial">
+                <div class="img-testimonial">
+                  <img
+                    src="images/person_3-min.jpg"
+                    alt="Image"
+                    class="img-fluid rounded-circle w-50 mb-4"
+                  />
+                </div>
+                <div class="rate">
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                </div>
+                <h3 class="h5 text-primary mb-4">Cameron Webster</h3>
+                <blockquote>
+                  <p>
+                    &ldquo;Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right at the
+                    coast of the Semantics, a large language ocean.&rdquo;
+                  </p>
+                </blockquote>
+                <p class="text-black-50">Designer, Co-founder</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="testimonial">
+                <div class="img-testimonial">
+                  <img
+                    src="images/person_4-min.jpg"
+                    alt="Image"
+                    class="img-fluid rounded-circle w-50 mb-4"
+                  />
+                </div>
+                <div class="rate">
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                  <span class="icon-star text-warning"></span>
+                </div>
+                <h3 class="h5 text-primary mb-4">Dave Smith</h3>
+                <blockquote>
+                  <p>
+                    &ldquo;Far far away, behind the word mountains, far from the
+                    countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right at the
+                    coast of the Semantics, a large language ocean.&rdquo;
+                  </p>
+                </blockquote>
+                <p class="text-black-50">Designer, Co-founder</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="section section-5 bg-light">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-6 mb-5">
+            <h2 class="font-weight-bold heading text-primary mb-4">
+              Our Agents
+            </h2>
+            <p class="text-black-50">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+              enim pariatur similique debitis vel nisi qui reprehenderit totam?
+              Quod maiores.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0">
+            <div class="h-100 person">
+              <img
+                src="images/person_1-min.jpg"
+                alt="Image"
+                class="img-fluid"
+              />
+
+              <div class="person-contents">
+                <h2 class="mb-0"><a href="#">James Doe</a></h2>
+                <span class="meta d-block mb-3">Real Estate Agent</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere officiis inventore cumque tenetur laboriosam, minus
+                  culpa doloremque odio, neque molestias?
+                </p>
+
+                <ul class="social list-unstyled list-inline dark-hover">
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-twitter"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-facebook"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-linkedin"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-instagram"></span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0">
+            <div class="h-100 person">
+              <img
+                src="images/person_2-min.jpg"
+                alt="Image"
+                class="img-fluid"
+              />
+
+              <div class="person-contents">
+                <h2 class="mb-0"><a href="#">Jean Smith</a></h2>
+                <span class="meta d-block mb-3">Real Estate Agent</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere officiis inventore cumque tenetur laboriosam, minus
+                  culpa doloremque odio, neque molestias?
+                </p>
+
+                <ul class="social list-unstyled list-inline dark-hover">
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-twitter"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-facebook"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-linkedin"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-instagram"></span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0">
+            <div class="h-100 person">
+              <img
+                src="images/person_3-min.jpg"
+                alt="Image"
+                class="img-fluid"
+              />
+
+              <div class="person-contents">
+                <h2 class="mb-0"><a href="#">Alicia Huston</a></h2>
+                <span class="meta d-block mb-3">Real Estate Agent</span>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Facere officiis inventore cumque tenetur laboriosam, minus
+                  culpa doloremque odio, neque molestias?
+                </p>
+
+                <ul class="social list-unstyled list-inline dark-hover">
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-twitter"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-facebook"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-linkedin"></span></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><span class="icon-instagram"></span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+   
+
+
+      <!-- Footer -->
+      <footer id="footer" class="text-center text-white" style="background-color: #efefef; color: #888; font-family: Work Sans, sans-serif;">
+        <!-- Grid container -->
+        <div class="container">
+            <!-- Section: Links -->
+            <section class="">
+                <!-- Grid row-->
+                <div class="row text-center d-flex justify-content-center pt-5">
+                    <!-- Grid column -->
+                    <div class="col-md-2">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <a href="./about.html" class="">About us</a>
+                        </h6>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-2">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <a href="./services.html" class="">Services</a>
+                        </h6>
+                    </div>
+                    <!-- Grid column -->
+    
+                    <!-- Grid column -->
+                    <div class="col-md-2">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <a href="./contact.html" class="">Contact Us</a>
+                        </h6>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row-->
+            </section>
+            <!-- Section: Links -->
+    
+            <hr class="my-3" />
+
+            
+    
+            <!-- Section: Social -->
+            <section class="text-center mb-5">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="#footer"><span class="wrap-icon me-3" >
+                          <svg xmlns="http://www.w3.org/2000/svg" style="width: 20px;" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                      </span></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#footer"><span class="wrap-icon me-3" >
+                        <svg xmlns="http://www.w3.org/2000/svg" style="width: 20px;" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg>
+                    </span></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://wa.me/50688244702?text=Hello,%20I%20want%20to%20know%20more%20about%20your%20service.%20Can%20you%20help%20me?"><span class="wrap-icon me-3" >
+                        <svg  xmlns="http://www.w3.org/2000/svg" style="width: 20px;" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                    </span></a>
+                    </li>
+                </ul>
+            </section>
+            <!-- Section: Social -->
+            <hr class="mx-auto" style="border-top: 1px solid black; max-width: 800px;">
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: #efefef; color: #888;">
+                <p>
+                    Copyright &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                    . All Rights Reserved. &mdash; Designed by
+                    <a href="https://visionariacompany.com/">VisionarIA.</a>
+                </p>
+                <div>
+                    Distributed by
+                    <a href="https://visionariacompany.com/" target="_blank">VisionarIA Company</a>
+                </div>
+            </div>
+            <!-- Copyright -->
+        </div>
+        <!-- Grid container -->
+    </footer>
+    
+    <!-- Footer -->
+    
+    <div id="overlayer"></div>
+    <div class="loader">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/properties.js"></script>
+    <script src="js/propertySingle.js"></script>
+    <script src="js/services.js" defer></script>
+  </body>
+</html>
